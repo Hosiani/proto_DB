@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
         Cursor cursor = db.query(
                 "testdb",
-                new String[]{"company", "stockprice"},
+                new String[]{"地名", "位置情報"},
                 null,
                 null,
                 null,
